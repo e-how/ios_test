@@ -69,30 +69,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D42E13771CD833C700C50B47 /* Models */ = {
+		D42E13771CD833C700C50B47 /*  Models */ = {
 			isa = PBXGroup;
 			children = (
 				D42E13801CD8342800C50B47 /* tModel.h */,
 				D42E13811CD8342800C50B47 /* tModel.m */,
 			);
+			name = " Models";
 			path = Models;
 			sourceTree = "<group>";
 		};
-		D42E13781CD833D200C50B47 /* Views */ = {
+		D42E13781CD833D200C50B47 /*  Views */ = {
 			isa = PBXGroup;
 			children = (
 				D42E137D1CD8341300C50B47 /* tView.h */,
 				D42E137E1CD8341300C50B47 /* tView.m */,
 			);
+			name = " Views";
 			path = Views;
 			sourceTree = "<group>";
 		};
-		D42E13791CD833E100C50B47 /* Controllers */ = {
+		D42E13791CD833E100C50B47 /*  Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				D42E137A1CD833FB00C50B47 /* tViewController.h */,
 				D42E137B1CD833FB00C50B47 /* tViewController.m */,
 			);
+			name = " Controllers";
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -117,9 +120,9 @@
 		D44E8AA21B8F205800C8100C /* zyhgithub */ = {
 			isa = PBXGroup;
 			children = (
-				D42E13791CD833E100C50B47 /* Controllers */,
-				D42E13781CD833D200C50B47 /* Views */,
-				D42E13771CD833C700C50B47 /* Models */,
+				D42E13791CD833E100C50B47 /*  Controllers */,
+				D42E13781CD833D200C50B47 /*  Views */,
+				D42E13771CD833C700C50B47 /*  Models */,
 				D44E8AA71B8F205800C8100C /* AppDelegate.h */,
 				D44E8AA81B8F205800C8100C /* AppDelegate.m */,
 				D44E8AAA1B8F205800C8100C /* ViewController.h */,
