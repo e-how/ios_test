@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D411E7071CD8580E007692CA /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = D411E7061CD8580E007692CA /* user.m */; };
 		D42E137C1CD833FB00C50B47 /* tViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E137B1CD833FB00C50B47 /* tViewController.m */; };
 		D42E137F1CD8341300C50B47 /* tView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E137E1CD8341300C50B47 /* tView.m */; };
 		D42E13821CD8342800C50B47 /* tModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E13811CD8342800C50B47 /* tModel.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D411E7051CD8580E007692CA /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		D411E7061CD8580E007692CA /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
 		D42E137A1CD833FB00C50B47 /* tViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tViewController.h; sourceTree = "<group>"; };
 		D42E137B1CD833FB00C50B47 /* tViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tViewController.m; sourceTree = "<group>"; };
 		D42E137D1CD8341300C50B47 /* tView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tView.h; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			children = (
 				D42E13801CD8342800C50B47 /* tModel.h */,
 				D42E13811CD8342800C50B47 /* tModel.m */,
+				D411E7051CD8580E007692CA /* user.h */,
+				D411E7061CD8580E007692CA /* user.m */,
 			);
 			name = " Models";
 			path = Models;
@@ -265,6 +270,7 @@
 				D44E8AAC1B8F205800C8100C /* ViewController.m in Sources */,
 				D44E8AA91B8F205800C8100C /* AppDelegate.m in Sources */,
 				D44E8AA61B8F205800C8100C /* main.m in Sources */,
+				D411E7071CD8580E007692CA /* user.m in Sources */,
 				D42E137C1CD833FB00C50B47 /* tViewController.m in Sources */,
 				D42E137F1CD8341300C50B47 /* tView.m in Sources */,
 			);
