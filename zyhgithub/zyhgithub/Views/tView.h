@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class tModel;
 @interface tView : UIView
 
 @property (nonatomic,strong) UILabel* lab;
+@property (nonatomic,strong) tModel* model;
+@property (nonatomic) SEL sel;
 
 @end

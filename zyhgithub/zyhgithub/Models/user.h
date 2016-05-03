@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@class tModel;
 @interface user : NSObject
 
 @property (nonatomic,copy) NSString* name;

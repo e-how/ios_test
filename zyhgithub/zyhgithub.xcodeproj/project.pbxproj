@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D411E7071CD8580E007692CA /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = D411E7061CD8580E007692CA /* user.m */; };
 		D411E70A1CD85939007692CA /* testview.m in Sources */ = {isa = PBXBuildFile; fileRef = D411E7091CD85939007692CA /* testview.m */; };
+		D411E70D1CD85ADD007692CA /* testvc.m in Sources */ = {isa = PBXBuildFile; fileRef = D411E70C1CD85ADD007692CA /* testvc.m */; };
+		D411E70F1CD8754D007692CA /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411E70E1CD8754D007692CA /* JavaScriptCore.framework */; };
+		D411E7111CD88495007692CA /* Second.html in Resources */ = {isa = PBXBuildFile; fileRef = D411E7101CD88495007692CA /* Second.html */; };
 		D42E137C1CD833FB00C50B47 /* tViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E137B1CD833FB00C50B47 /* tViewController.m */; };
 		D42E137F1CD8341300C50B47 /* tView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E137E1CD8341300C50B47 /* tView.m */; };
 		D42E13821CD8342800C50B47 /* tModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E13811CD8342800C50B47 /* tModel.m */; };
@@ -36,6 +39,10 @@
 		D411E7061CD8580E007692CA /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
 		D411E7081CD85939007692CA /* testview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testview.h; sourceTree = "<group>"; };
 		D411E7091CD85939007692CA /* testview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testview.m; sourceTree = "<group>"; };
+		D411E70B1CD85ADD007692CA /* testvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testvc.h; sourceTree = "<group>"; };
+		D411E70C1CD85ADD007692CA /* testvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testvc.m; sourceTree = "<group>"; };
+		D411E70E1CD8754D007692CA /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D411E7101CD88495007692CA /* Second.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Second.html; sourceTree = "<group>"; };
 		D42E137A1CD833FB00C50B47 /* tViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tViewController.h; sourceTree = "<group>"; };
 		D42E137B1CD833FB00C50B47 /* tViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tViewController.m; sourceTree = "<group>"; };
 		D42E137D1CD8341300C50B47 /* tView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tView.h; sourceTree = "<group>"; };
@@ -62,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D411E70F1CD8754D007692CA /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +112,8 @@
 			children = (
 				D42E137A1CD833FB00C50B47 /* tViewController.h */,
 				D42E137B1CD833FB00C50B47 /* tViewController.m */,
+				D411E70B1CD85ADD007692CA /* testvc.h */,
+				D411E70C1CD85ADD007692CA /* testvc.m */,
 			);
 			name = " Controllers";
 			path = Controllers;
@@ -112,6 +122,7 @@
 		D44E8A971B8F205800C8100C = {
 			isa = PBXGroup;
 			children = (
+				D411E70E1CD8754D007692CA /* JavaScriptCore.framework */,
 				D44E8AA21B8F205800C8100C /* zyhgithub */,
 				D44E8ABC1B8F205800C8100C /* zyhgithubTests */,
 				D44E8AA11B8F205800C8100C /* Products */,
@@ -130,6 +141,7 @@
 		D44E8AA21B8F205800C8100C /* zyhgithub */ = {
 			isa = PBXGroup;
 			children = (
+				D411E7101CD88495007692CA /* Second.html */,
 				D42E13791CD833E100C50B47 /*  Controllers */,
 				D42E13781CD833D200C50B47 /*   Views */,
 				D42E13771CD833C700C50B47 /*  Models */,
@@ -253,6 +265,7 @@
 			files = (
 				D44E8AAF1B8F205800C8100C /* Main.storyboard in Resources */,
 				D44E8AB41B8F205800C8100C /* LaunchScreen.xib in Resources */,
+				D411E7111CD88495007692CA /* Second.html in Resources */,
 				D44E8AB11B8F205800C8100C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +286,7 @@
 			files = (
 				D411E70A1CD85939007692CA /* testview.m in Sources */,
 				D42E13821CD8342800C50B47 /* tModel.m in Sources */,
+				D411E70D1CD85ADD007692CA /* testvc.m in Sources */,
 				D44E8AAC1B8F205800C8100C /* ViewController.m in Sources */,
 				D44E8AA91B8F205800C8100C /* AppDelegate.m in Sources */,
 				D44E8AA61B8F205800C8100C /* main.m in Sources */,

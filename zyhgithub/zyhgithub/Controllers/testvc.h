@@ -1,5 +1,5 @@
 //
-//  tModel.h
+//  testvc.h
 //  zyhgithub
 //
 //  Created by 张益豪 on 16/5/3.
@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface tModel : NSObject
-
-
-@property (nonatomic,copy)NSString* title1;
-@property (nonatomic) SEL sel;
-
+@interface testvc : NSObject
 
 @end

@@ -14,10 +14,16 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.lab = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 200, 100)];
+        self.lab = [[UILabel alloc] initWithFrame:CGRectMake(10, 50, 200, 500)];
         [self addSubview:self.lab];
     }
     return self;
+}
+
+- (void)setModel:(tModel *)model{
+    self.model = model;
+//    self.lab.text = model.title1;
+//    self.lab.text = self.model.title;
 }
 
 @end
