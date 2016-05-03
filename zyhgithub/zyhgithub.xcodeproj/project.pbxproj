@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D411E7071CD8580E007692CA /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = D411E7061CD8580E007692CA /* user.m */; };
+		D411E70A1CD85939007692CA /* testview.m in Sources */ = {isa = PBXBuildFile; fileRef = D411E7091CD85939007692CA /* testview.m */; };
 		D42E137C1CD833FB00C50B47 /* tViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E137B1CD833FB00C50B47 /* tViewController.m */; };
 		D42E137F1CD8341300C50B47 /* tView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E137E1CD8341300C50B47 /* tView.m */; };
 		D42E13821CD8342800C50B47 /* tModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E13811CD8342800C50B47 /* tModel.m */; };
@@ -33,6 +34,8 @@
 /* Begin PBXFileReference section */
 		D411E7051CD8580E007692CA /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
 		D411E7061CD8580E007692CA /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
+		D411E7081CD85939007692CA /* testview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testview.h; sourceTree = "<group>"; };
+		D411E7091CD85939007692CA /* testview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testview.m; sourceTree = "<group>"; };
 		D42E137A1CD833FB00C50B47 /* tViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tViewController.h; sourceTree = "<group>"; };
 		D42E137B1CD833FB00C50B47 /* tViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tViewController.m; sourceTree = "<group>"; };
 		D42E137D1CD8341300C50B47 /* tView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tView.h; sourceTree = "<group>"; };
@@ -84,12 +87,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		D42E13781CD833D200C50B47 /* Views */ = {
+		D42E13781CD833D200C50B47 /*   Views */ = {
 			isa = PBXGroup;
 			children = (
 				D42E137D1CD8341300C50B47 /* tView.h */,
 				D42E137E1CD8341300C50B47 /* tView.m */,
+				D411E7081CD85939007692CA /* testview.h */,
+				D411E7091CD85939007692CA /* testview.m */,
 			);
+			name = "  Views";
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -125,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				D42E13791CD833E100C50B47 /*  Controllers */,
-				D42E13781CD833D200C50B47 /* Views */,
+				D42E13781CD833D200C50B47 /*   Views */,
 				D42E13771CD833C700C50B47 /*  Models */,
 				D44E8AA71B8F205800C8100C /* AppDelegate.h */,
 				D44E8AA81B8F205800C8100C /* AppDelegate.m */,
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D411E70A1CD85939007692CA /* testview.m in Sources */,
 				D42E13821CD8342800C50B47 /* tModel.m in Sources */,
 				D44E8AAC1B8F205800C8100C /* ViewController.m in Sources */,
 				D44E8AA91B8F205800C8100C /* AppDelegate.m in Sources */,
