@@ -84,12 +84,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		D42E13781CD833D200C50B47 /* Views */ = {
+		D42E13781CD833D200C50B47 /*   Views */ = {
 			isa = PBXGroup;
 			children = (
 				D42E137D1CD8341300C50B47 /* tView.h */,
 				D42E137E1CD8341300C50B47 /* tView.m */,
 			);
+			name = "  Views";
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -125,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				D42E13791CD833E100C50B47 /*  Controllers */,
-				D42E13781CD833D200C50B47 /* Views */,
+				D42E13781CD833D200C50B47 /*   Views */,
 				D42E13771CD833C700C50B47 /*  Models */,
 				D44E8AA71B8F205800C8100C /* AppDelegate.h */,
 				D44E8AA81B8F205800C8100C /* AppDelegate.m */,
