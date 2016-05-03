@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42E137C1CD833FB00C50B47 /* tViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E137B1CD833FB00C50B47 /* tViewController.m */; };
+		D42E137F1CD8341300C50B47 /* tView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E137E1CD8341300C50B47 /* tView.m */; };
+		D42E13821CD8342800C50B47 /* tModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E13811CD8342800C50B47 /* tModel.m */; };
 		D44E8AA61B8F205800C8100C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D44E8AA51B8F205800C8100C /* main.m */; };
 		D44E8AA91B8F205800C8100C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D44E8AA81B8F205800C8100C /* AppDelegate.m */; };
 		D44E8AAC1B8F205800C8100C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44E8AAB1B8F205800C8100C /* ViewController.m */; };
@@ -27,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D42E137A1CD833FB00C50B47 /* tViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tViewController.h; sourceTree = "<group>"; };
+		D42E137B1CD833FB00C50B47 /* tViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tViewController.m; sourceTree = "<group>"; };
+		D42E137D1CD8341300C50B47 /* tView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tView.h; sourceTree = "<group>"; };
+		D42E137E1CD8341300C50B47 /* tView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tView.m; sourceTree = "<group>"; };
+		D42E13801CD8342800C50B47 /* tModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tModel.h; sourceTree = "<group>"; };
+		D42E13811CD8342800C50B47 /* tModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tModel.m; sourceTree = "<group>"; };
 		D44E8AA01B8F205800C8100C /* zyhgithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zyhgithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44E8AA41B8F205800C8100C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D44E8AA51B8F205800C8100C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +69,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D42E13771CD833C700C50B47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D42E13801CD8342800C50B47 /* tModel.h */,
+				D42E13811CD8342800C50B47 /* tModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D42E13781CD833D200C50B47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D42E137D1CD8341300C50B47 /* tView.h */,
+				D42E137E1CD8341300C50B47 /* tView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D42E13791CD833E100C50B47 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D42E137A1CD833FB00C50B47 /* tViewController.h */,
+				D42E137B1CD833FB00C50B47 /* tViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D44E8A971B8F205800C8100C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,9 @@
 		D44E8AA21B8F205800C8100C /* zyhgithub */ = {
 			isa = PBXGroup;
 			children = (
+				D42E13791CD833E100C50B47 /* Controllers */,
+				D42E13781CD833D200C50B47 /* Views */,
+				D42E13771CD833C700C50B47 /* Models */,
 				D44E8AA71B8F205800C8100C /* AppDelegate.h */,
 				D44E8AA81B8F205800C8100C /* AppDelegate.m */,
 				D44E8AAA1B8F205800C8100C /* ViewController.h */,
@@ -219,9 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42E13821CD8342800C50B47 /* tModel.m in Sources */,
 				D44E8AAC1B8F205800C8100C /* ViewController.m in Sources */,
 				D44E8AA91B8F205800C8100C /* AppDelegate.m in Sources */,
 				D44E8AA61B8F205800C8100C /* main.m in Sources */,
+				D42E137C1CD833FB00C50B47 /* tViewController.m in Sources */,
+				D42E137F1CD8341300C50B47 /* tView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +458,7 @@
 				D44E8AC51B8F205800C8100C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D44E8AC61B8F205800C8100C /* Build configuration list for PBXNativeTarget "zyhgithubTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				D44E8AC81B8F205800C8100C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
