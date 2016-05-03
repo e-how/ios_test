@@ -64,6 +64,7 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"方式二" message:@"这是OC原生的弹出窗" delegate:self cancelButtonTitle:@"收到" otherButtonTitles:nil];
             [alertView show];
+            tV.lab.text = ((JSValue*)args[0]).toString;
         });
         
         
